@@ -83,7 +83,7 @@ func TestFileLogger_Log(t *testing.T) {
 	scanner := bufio.NewScanner(file)
 	if scanner.Scan() {
 		text := scanner.Text()
-		expected := "[Error] error"
+		expected := "[ERROR] error"
 		if !strings.Contains(text, expected) {
 			t.Errorf("wrong log format, expected %s - got %s", expected, text)
 		}
