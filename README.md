@@ -12,4 +12,4 @@
 
 3. **CLI**:
    - Команда `log <level> <message>`: запись лога.
-   - Команда `analyze <filename> --level=<level> --keyword=<keyword>`: анализ файла.
+   - Команда `--level=<level> --keyword=<keyword> analyze <filename>`: анализ файла.
