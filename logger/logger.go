@@ -32,7 +32,7 @@ func NewFileLoggerWithBuffer(filename string, bufferSize int) (*FileLogger, erro
 		bufferSize = DefaultBufferSize
 	}
 
-	file, err := os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	file, err := os.OpenFile(filename, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 	if err != nil {
 		return nil, fmt.Errorf("[NewFileLogger]: error opening file: %v", err)
 	}

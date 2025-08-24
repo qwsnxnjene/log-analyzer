@@ -1,0 +1,6 @@
+[2025-08-24 12:06:37] [INFO] counted level Error: 0
+[2025-08-24 12:06:37] [INFO] filtered lines Error: []
+[2025-08-24 12:10:12] [INFO] counted level Error: 0
+[2025-08-24 12:10:12] [INFO] filtered lines Error: []
+[2025-08-24 12:10:30] [INFO] counted level Info: 4
+[2025-08-24 12:10:30] [INFO] filtered lines Info: [[2025-08-24 12:06:37] [INFO] counted level Error: 0 [2025-08-24 12:10:12] [INFO] counted level Error: 0]
